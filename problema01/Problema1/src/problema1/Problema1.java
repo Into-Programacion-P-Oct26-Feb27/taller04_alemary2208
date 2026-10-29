@@ -46,8 +46,8 @@ public class Problema1 {
         System.out.println("Ingrese Gasto Total:");
         gastoTotal = gasto1 + gasto2 + gasto3;
         
-        System.out.printf("Proyecto1: %s\nGasto 1:%.2f\n"
-                + "Proyecto 2:%s\nGasto 2: %.2f\n" + "Proyecto 3: %s\nGasto 3: %.2f\n"
+        System.out.printf("Proyecto1: %s\nGasto 1:%.2f\n\n"
+                + "Proyecto 2:%s\nGasto 2: %.2f\n\n" + "Proyecto 3: %s\nGasto 3: %.2f\n\n"
                 + "Gasto Total: %s\n",
                 proyecto1,
                 gasto1,
