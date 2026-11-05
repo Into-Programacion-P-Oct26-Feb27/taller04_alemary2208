@@ -17,7 +17,7 @@ public class Problema1 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-         Scanner entrada = new Scanner(System.in);
+        Scanner entrada = new Scanner(System.in);
         entrada.useLocale(Locale.US);
         // TODO code application logic here
         String proyecto1;
@@ -46,9 +46,9 @@ public class Problema1 {
         System.out.println("Ingrese Gasto Total:");
         gastoTotal = gasto1 + gasto2 + gasto3;
         
-        System.out.printf("Proyecto1: %s\nGasto 1:%.2f\n\n"
-                + "Proyecto 2:%s\nGasto 2: %.2f\n\n" + "Proyecto 3: %s\nGasto 3: %.2f\n\n"
-                + "Gasto Total: %s\n",
+        System.out.printf("Proyecto 1: %s\nGasto 1:%.2f\n\n"
+                + "Proyecto 2: %s\nGasto 2: %.2f\n\n" + "Proyecto 3: %s\nGasto 3: %.2f\n\n"
+                + "Gasto Total: %.2f\n",
                 proyecto1,
                 gasto1,
                 proyecto2,
